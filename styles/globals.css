@@ -623,14 +623,16 @@ margin-top: 160px;
     height: 560px;
   }
   .hero-banner-image{
-    width: 77%;
-    height: 62%;
+    max-height: 60%;
+    max-width: 60%;
     top: -2%;
-    right: -6%;
+    right: 10px;
+    
   }
   .footer-banner-container{
     height: 560px;
     margin-top: 80px;
+    
   }
   .footer-banner-image{
     width: 77%;
