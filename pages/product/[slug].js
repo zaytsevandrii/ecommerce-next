@@ -102,7 +102,7 @@ export const getStaticPaths = async () => {
     fallback: 'blocking'
   }
 }
-
+//Fetch from sanity.io
 export const getStaticProps = async ({ params: { slug }}) => {
   const query = `*[_type == "product" && slug.current == '${slug}'][0]`;
   const productsQuery = '*[_type == "product"]'
